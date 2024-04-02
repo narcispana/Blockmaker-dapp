@@ -1,12 +1,10 @@
-import {Header, Footer} from './Components'
+import {AppLayout} from './Components/ui/layouts'
 
 function App() {
   return (
-    <>
-      <Header></Header>
+    <AppLayout>
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <Footer></Footer>
-    </>
+    </AppLayout>
   )
 }
 
